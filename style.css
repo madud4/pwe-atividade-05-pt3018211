@@ -1,4 +1,22 @@
-html {
-  height: 100%;
-  width: 100%;
+#img_borda {
+  border-radius: 500%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+  text-align: center;
+}
+#video_border {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#borda_granulada{
+  text-align: center;
+  border-style: dotted;
+  border-color: #bb00ff;
 }
