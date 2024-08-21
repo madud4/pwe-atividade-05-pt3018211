@@ -16,26 +16,30 @@
      <img src="Logo.jpg"/>
    </header>
 
-  <h1 class="titulo">Entrar</h1>
-  <p><div>
-    <label for="nome">Usuário</label>
-    <input type="text" name="nome" id="nome" required>
-  </p></div>
-  <p><div>
-    <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha" required>
-  </p></div>
-  <p><div>
-    <input type="submit" value="Entrar"
-  </p>
-  <a href="#">Esqueci a senha</a>
-  <script src="script.js"></script>
-  </div>
+  <main>
+      <h1>Entrar</h1>
+      <form method="POST">
+          <div>
+              <label for="entrar-usuario">Usuário</label>
+              <input type="text" name="usuario" id="entrar-usuario" required />
+          </div>
+          <br>
+          <div>
+              <label for="entrar-senha">Senha</label>
+              <input type="password" name="senha" id="entrar-senha" required />
+          </div>
+          <br>
+          <div>
+              <input type="submit" value="Entrar">
+              <a href="#">Esqueci a senha</a>
+          </div>
+      </form>
+  </main>
   <footer>
     <br><br>
   <div id="my_menu" align="left">
     <a href="https://www.facebook.com/ifsppirituba"><img src="facebook.png" width="50" height="43" title="IFSP Facebook" alt="IFSP Facebook"></a>
-      </div>
+  </div>
 
       <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
     </footer>
