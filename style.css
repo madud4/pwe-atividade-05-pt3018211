@@ -59,64 +59,26 @@ div {
   padding: 20px;
 }
 
-.my_menu {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-.my_menu a {
+li {
   float: left;
-  font-size: 16px;
+}
+
+li a {
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.my_menu a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
-}
-
-.cursosif {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.cursosif a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.cursosif a:hover {
-  background-color: #000000;
-}
-
-.show {
-  display: block;
+li a:hover {
+  background-color: #111;
 }
