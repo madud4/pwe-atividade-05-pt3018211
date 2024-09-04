@@ -59,7 +59,12 @@ div {
   padding: 20px;
 }
 
-ul {
+div#menuhorizontal {
+	background-color: green;
+}
+
+
+div#menuhorizontal ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -67,18 +72,49 @@ ul {
   background-color: #333;
 }
 
-li {
+div#menuhorizontal li {
   float: left;
 }
 
-li a {
-  display: block;
+div#menuhorizontal li a, .dropbtn {
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
+div#menuhorizontal li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+div#menuhorizontal li.dropdown {
+  display: inline-block;
+}
+
+div#menuhorizontal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+div#menuhorizontal .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+div#menuhorizontal .dropdown-content a:hover {background-color: #f1f1f1;}
+
+div#menuhorizontal .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div#menuhorizontal li#about {
+	float:right
 }
