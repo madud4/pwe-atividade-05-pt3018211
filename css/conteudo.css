@@ -21,11 +21,6 @@
     width: 40%;
   }
 
-figure {
-    display: inline-block;
-    border: 0px dotted gray;
-    margin: 20px; /* adjust as needed */
-}
 figure img {
     vertical-align: top;
 }
