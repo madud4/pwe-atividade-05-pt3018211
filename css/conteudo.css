@@ -5,13 +5,20 @@
 		float: right;		
 		}
 		
-img {
+#img_borda {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+#video_border{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 
 figure {
     display: inline-block;
