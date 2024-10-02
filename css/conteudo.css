@@ -55,11 +55,11 @@ h1{
 }
 
 .grid-item img {
-  max-width: 30%;
+  max-width: 80%;
   height: auto;
 }
 
 .grid-item p {
-  font-size: 8px;
+  font-size: 13px;
   text-align: center;
 }
