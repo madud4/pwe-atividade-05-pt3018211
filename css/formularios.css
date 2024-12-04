@@ -6,7 +6,7 @@ input[type=text], input[type=email], input[type=tel], input[type=url], input[typ
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #fffefe;
+  border: 1px solid #ebebeb;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -28,6 +28,6 @@ input[type=submit]:hover {
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #fffdfd;
   padding: 20px;
 }
