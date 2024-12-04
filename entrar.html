@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width">
   <title>IFSP - Campus Pirituba</title>
   <link href="css/formularios.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="js/disabling.js"></script>
 </head>
 
 <body>
@@ -14,6 +17,43 @@
          <object width="100%" height="200px" data="menu.html"></object>
      </nav>
    </header>
+
+   <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="p-4 text-center" style="max-width: 400px; width: 100%;">
+      <div>
+        <!-- Logo -->
+        <img src="Imagens/ifsp.png" alt="Logo" class="mb-3">
+      </div>
+      <h3 class="mb-4">Faça login</h3>
+      <form>
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Endereço de email</label>
+          <input type="email" class="form-control text-center" id="email" placeholder="Seu email">
+        </div>
+        <!-- Senha -->
+        <div class="mb-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input type="password" class="form-control text-center" id="senha" placeholder="Senha">
+        </div>
+        <!-- Checkbox -->
+        <div class="form-check mb-3 d-flex align-items-center justify-content-center">
+          <div class="d-flex">
+            <input class="form-check-input me-2" type="checkbox" id="lembrar">
+            <label class="form-check-label" for="lembrar">
+              Lembrar de mim
+            </label>
+          </div>
+        </div>
+        <!-- Esqueceu a senha -->
+        <div class="mb-3">
+          <a href="#" class="text-decoration-none">Esqueci a senha</a>
+        </div>
+        <!-- Botão de login -->
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+      </form>
+    </div>
+  </div>
 
   <main>
       <h1>Entrar</h1>
@@ -42,6 +82,17 @@
 
       <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
     </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
